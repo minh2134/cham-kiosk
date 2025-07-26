@@ -1,0 +1,68 @@
+{
+  "accessibilityRoutes": [
+    {
+      "id": "wheelchair-main-route",
+      "name": "Main Wheelchair Accessible Route",
+      "description": "A paved pathway suitable for wheelchairs and mobility devices, providing access to the most significant temple groups including Group A and Group B. Features gentle slopes and rest areas.",
+      "waypoints": [
+        "Visitor Center Entrance",
+        "Information Pavilion",
+        "Group A Temple Complex",
+        "Viewing Platform",
+        "Group B Ancient Towers",
+        "Rest Area with Seating",
+        "Return Path to Entrance"
+      ]
+    },
+    {
+      "id": "assisted-walking-route",
+      "name": "Assisted Walking Route",
+      "description": "A shorter route designed for visitors with limited mobility who can walk short distances with assistance. Includes frequent seating areas and shorter walking segments.",
+      "waypoints": [
+        "Accessible Parking Area",
+        "Covered Waiting Area",
+        "Group A Main Temple (closest access)",
+        "Shaded Rest Stop",
+        "Photo Viewing Point",
+        "Return via Shuttle Service"
+      ]
+    },
+    {
+      "id": "visual-impairment-route",
+      "name": "Audio-Guided Route for Visually Impaired",
+      "description": "A tactile-friendly route with audio descriptions and textured pathways. Includes tactile models of temple structures and detailed audio guides describing the architectural features.",
+      "waypoints": [
+        "Audio Guide Station",
+        "Tactile Model Display",
+        "Group A with Audio Description",
+        "Textured Pathway Markers",
+        "Interactive Audio Points",
+        "Guided Return Path"
+      ]
+    }
+  ],
+  "emergencyContact": {
+    "name": "My Son Sanctuary Administration",
+    "email": "admin@myson.vn",
+    "phone": "+84-XXX-XXX-XXXX",
+    "role": "Site Administrator and Emergency Response Coordinator"
+  },
+  "contributors": [
+    {
+      "name": "DINH LE HOANG ANH",
+      "studentId": "105508318"
+    },
+    {
+      "name": "PHAM THANH TRUNG",
+      "studentId": "104849317"
+    },
+    {
+      "name": "PHAM VU MINH",
+      "studentId": "105110564"
+    },
+    {
+      "name": "LE QUANG DINH",
+      "studentId": "105543296"
+    }
+  ]
+}

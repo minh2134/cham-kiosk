@@ -1,0 +1,101 @@
+{
+  "categories": ["festival", "dance", "ceremony", "cultural"],
+  "events": [
+    {
+      "id": "kate-festival",
+      "title": "Kate Festival - Cham New Year",
+      "date": "2025-10-15T09:00:00Z",
+      "description": "The most important festival of the Cham people, celebrating the new year with traditional ceremonies, offerings to ancestors, and vibrant cultural performances. Visitors can witness ancient rituals, traditional music, and authentic Cham cuisine.",
+      "type": "festival",
+      "image": "cham-festival"
+    },
+    {
+      "id": "rija-nagar-festival",
+      "title": "Rija Nagar Festival",
+      "date": "2025-09-20T08:00:00Z",
+      "description": "A sacred festival honoring Po Nagar, the goddess mother of the Cham people. Features traditional boat races, ceremonial processions, and offerings at ancient temples. This festival showcases the deep spiritual connection between the Cham people and their ancestral traditions.",
+      "type": "festival",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-traditional-dance",
+      "title": "Traditional Cham Dance Performance",
+      "date": "2025-11-08T19:00:00Z",
+      "description": "An enchanting evening of traditional Cham dance performances featuring the famous Apsara dance, warrior dances, and harvest celebrations. Performed by local artists in authentic costumes with traditional musical accompaniment.",
+      "type": "dance",
+      "image": "cham-festival"
+    },
+    {
+      "id": "bon-chol-vossa",
+      "title": "Bon Chol Vossa - Rain Retreat Festival",
+      "date": "2025-07-22T06:00:00Z",
+      "description": "A Buddhist-influenced Cham festival marking the beginning of the rainy season retreat. Features meditation sessions, traditional storytelling, and community gatherings. Visitors can participate in peaceful ceremonies and learn about Cham spiritual practices.",
+      "type": "ceremony",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-weaving-workshop",
+      "title": "Traditional Cham Textile Weaving Workshop",
+      "date": "2025-12-03T10:00:00Z",
+      "description": "Learn the ancient art of Cham textile weaving from master craftswomen. This hands-on cultural experience teaches traditional patterns, natural dyeing techniques, and the cultural significance of Cham textiles in daily life and ceremonies.",
+      "type": "cultural",
+      "image": "cham-festival"
+    },
+    {
+      "id": "ahier-festival",
+      "title": "Ahier Festival - Ancestor Worship",
+      "date": "2025-08-12T07:00:00Z",
+      "description": "A solemn festival dedicated to honoring Cham ancestors and deceased family members. Features traditional offerings, incense ceremonies, and family gatherings at ancestral tombs. Provides insight into Cham beliefs about life, death, and spiritual continuity.",
+      "type": "ceremony",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-music-concert",
+      "title": "Traditional Cham Music Concert",
+      "date": "2025-10-28T18:30:00Z",
+      "description": "An evening concert featuring traditional Cham musical instruments including the saranai (oboe), gongs, and drums. Professional musicians perform ancient melodies that have been passed down through generations, accompanied by historical narratives.",
+      "type": "cultural",
+      "image": "cham-festival"
+    },
+    {
+      "id": "ginang-festival",
+      "title": "Ginang Festival - Harvest Celebration",
+      "date": "2025-11-25T08:00:00Z",
+      "description": "A joyous harvest festival celebrating the rice harvest season with traditional games, folk performances, and community feasts. Features buffalo races, traditional sports, and displays of agricultural tools and techniques used by Cham farmers.",
+      "type": "festival",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-pottery-demo",
+      "title": "Cham Pottery Making Demonstration",
+      "date": "2025-09-15T14:00:00Z",
+      "description": "Watch skilled Cham potters create traditional ceramics using ancient techniques passed down through generations. Learn about the cultural significance of different pottery styles and their uses in daily life and religious ceremonies.",
+      "type": "cultural",
+      "image": "cham-festival"
+    },
+    {
+      "id": "bon-kate-ceremony",
+      "title": "Bon Kate Ceremony - Temple Blessing",
+      "date": "2025-12-18T09:00:00Z",
+      "description": "A sacred temple blessing ceremony performed by Cham priests at My Son Sanctuary. Features traditional chanting, incense offerings, and prayers for peace and prosperity. Visitors can observe this authentic religious practice in its historical setting.",
+      "type": "ceremony",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-folk-dance-party",
+      "title": "Cham Folk Dance Party",
+      "date": "2025-06-30T20:00:00Z",
+      "description": "A lively evening of traditional Cham folk dances where visitors can participate and learn basic dance steps. Features community dancing, traditional costumes, and festive atmosphere with local musicians providing live accompaniment.",
+      "type": "dance",
+      "image": "cham-festival"
+    },
+    {
+      "id": "cham-culinary-festival",
+      "title": "Cham Culinary Festival",
+      "date": "2025-05-18T11:00:00Z",
+      "description": "A celebration of traditional Cham cuisine featuring cooking demonstrations, food tastings, and cultural stories behind traditional recipes. Learn about the unique flavors and ingredients that define Cham gastronomy.",
+      "type": "cultural",
+      "image": "cham-festival"
+    }
+  ]
+}

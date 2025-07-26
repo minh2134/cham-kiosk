@@ -1,0 +1,18 @@
+{
+  "updated": "2025-07-26T12:00:00.000Z",
+  "description": "Real images for My Son Sanctuary Kiosk",
+  "totalImages": 9,
+  "formats": ["jpg", "png"],
+  "images": {
+    "hero": ["my-son-1.png", "my-son-2.jpg", "my-son-3.png", "my-son-4.jpg"],
+    "map": ["my-son-map.jpg"],
+    "sites": ["thap-a.jpg", "thap-h.jpg", "thap-k.png"],
+    "events": ["cham-festival.jpg"]
+  },
+  "features": {
+    "clickNavigation": true,
+    "lazyLoading": true,
+    "realImages": true,
+    "placeholdersRemoved": true
+  }
+}

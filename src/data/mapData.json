@@ -1,0 +1,39 @@
+{
+  "backgroundImage": "my-son-map",
+  "dimensions": {
+    "width": 1000,
+    "height": 600
+  },
+  "markers": [
+    {
+      "id": "thap-a",
+      "name": "Thap A - Main Temple Complex",
+      "position": {
+        "x": 620,
+        "y": 400
+      },
+      "image": "thap-a",
+      "description": "The most significant and well-preserved temple group, featuring the main sanctuary dedicated to King Jaya Indravarman II. This complex showcases the finest examples of Cham architecture with intricate brick work and stone carvings."
+    },
+    {
+      "id": "thap-h",
+      "name": "Thap H - Water Temple",
+      "position": {
+        "x": 530,
+        "y": 320
+      },
+      "image": "thap-h",
+      "description": "A unique water temple complex featuring ancient hydraulic systems and sacred pools. This site demonstrates the Cham people's advanced understanding of water management and its spiritual significance."
+    },
+    {
+      "id": "thap-k",
+      "name": "Thap K - Royal Complex",
+      "position": {
+        "x": 540,
+        "y": 270
+      },
+      "image": "thap-k",
+      "description": "The royal temple complex that served as the spiritual center for Cham kings. Features elaborate stone sculptures and inscriptions that provide insights into ancient Cham royal ceremonies."
+    }
+  ]
+}

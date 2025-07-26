@@ -1,34 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react'
+import Navigation from './components/Navigation'
+import { LazyHomePage, LazyMapPage, LazyEventsPage, LazyHelpPage } from './components/LazyPages'
+import { addResourceHints, registerServiceWorker } from './utils/performanceOptimizations'
+import type { Page } from './types'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentPage, setCurrentPage] = useState<Page>('home')
+
+  const handleNavigation = (page: Page) => {
+    setCurrentPage(page)
+  }
+
+  // Performance optimizations on app initialization
+  useEffect(() => {
+    addResourceHints()
+    registerServiceWorker()
+  }, [])
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'home':
+        return <LazyHomePage onNavigate={handleNavigation} />
+      case 'map':
+        return <LazyMapPage onNavigate={handleNavigation} />
+      case 'events':
+        return <LazyEventsPage onNavigate={handleNavigation} />
+      case 'help':
+        return <LazyHelpPage onNavigate={handleNavigation} />
+      default:
+        return <LazyHomePage onNavigate={handleNavigation} />
+    }
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="vertical-layout">
+      {/* Left black bar */}
+      <div className="side-bar"></div>
+      
+      {/* Main content area */}
+      <div className="main-content">
+        <Navigation currentPage={currentPage} onNavigate={handleNavigation} />
+        {renderPage()}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      
+      {/* Right black bar */}
+      <div className="side-bar"></div>
+    </div>
   )
 }
 

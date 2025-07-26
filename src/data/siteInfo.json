@@ -1,0 +1,34 @@
+{
+  "name": "My Son Sanctuary",
+  "overview": "My Son Sanctuary is a cluster of abandoned and partially ruined Hindu temples constructed between the 4th and 14th centuries by the kings of Champa. Located in the heart of Vietnam, this UNESCO World Heritage Site represents the longest inhabited archaeological site in Indochina and serves as the religious and political capital of the Champa Kingdom for most of its existence.",
+  "history": "The My Son temple complex was built over a period of ten centuries, from the 4th to the 14th century CE. It served as the religious and political capital of the Champa Kingdom, which ruled central and southern Vietnam for over 1,500 years. The temples were dedicated to the worship of the Hindu god Shiva, known to the Cham people as Po Nagar. The site contains the longest inhabited archaeological remains in Indochina, with evidence of continuous religious practices spanning multiple dynasties. During the Vietnam War, many structures were damaged by bombing, but restoration efforts have preserved this invaluable cultural heritage for future generations.",
+  "champaInfo": {
+    "title": "The Cham People and Their Cultural Legacy",
+    "description": "The Cham people are an Austronesian ethnic group native to central and southern Vietnam and eastern Cambodia. They are the descendants of the ancient Champa Kingdom and have maintained their distinct cultural identity for over a millennium.",
+    "culturalAspects": [
+      "Hindu-Buddhist religious traditions blended with Islamic influences",
+      "Unique architectural style featuring brick towers and intricate stone carvings",
+      "Traditional textile weaving and pottery crafts passed down through generations",
+      "Rich oral traditions including epic poems and folk tales",
+      "Traditional music and dance performances during religious festivals",
+      "Matrilineal society structure with strong female leadership roles",
+      "Ancient Sanskrit-influenced Cham script and language preservation"
+    ]
+  },
+  "images": {
+    "hero": [
+      "my-son-1",
+      "my-son-2", 
+      "my-son-3",
+      "my-son-4"
+    ],
+    "gallery": [
+      "temple-complex-aerial",
+      "brick-tower-detail",
+      "stone-sculpture",
+      "restoration-work",
+      "cham-architecture",
+      "archaeological-site"
+    ]
+  }
+}
