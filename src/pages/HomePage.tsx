@@ -49,7 +49,7 @@ const HomePage = ({ onNavigate: _onNavigate }: HomePageProps) => {
         />
         
         {/* Hero Content Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center" style={{pointerEvents: "none"}}>
           <div className="absolute inset-0 bg-black bg-opacity-30"></div>
           <div className="relative text-center text-white px-6 max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
